@@ -1,0 +1,61 @@
+body
+{
+    font-weight: bolder;
+    font-family: 'Encode Sans Semi Condensed', sans-serif; 
+    letter-spacing: 3px;
+    background-image: url("https://thumbs.dreamstime.com/b/modern-dj-mixer-dark-background-150013969.jpg");  
+    color: white;
+background-size: cover;
+}
+#volumediv
+{
+float: right;
+animation-name: example;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+margin-right: 20px;
+}
+@keyframes damn
+{
+    from{box-shadow: 4px 4px 12px tomato;}
+    to{box-shadow: 4px 8px 16px thistle;}
+}
+#speediv
+{
+    float: left;
+    animation-name: damn;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+margin-left: 20px;
+}
+@keyframes example
+{
+    from{box-shadow: 4px 4px 12px tomato;}
+    to{box-shadow: 4px 8px 16px thistle;}
+}
+img
+{
+    width: 400px;
+    height: 400px;
+    
+}
+button
+{
+    width: 100px;
+    height: 50px;
+    color: black;
+    font-size: xx-large;
+}
+#name
+{
+    font-size: xx-large;
+}
+span
+{
+    font-size: x-large !important;
+}
+canvas{
+border-style: ridge;
+border-color: linear-gradient(white , black , white);
+border-width: 7px;    
+}
